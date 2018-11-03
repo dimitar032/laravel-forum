@@ -21,6 +21,7 @@ $factory->define(App\User::class, function (Faker $faker) {
         'remember_token' => str_random(10),
     ];
 });
+//init and episode1..
 
 $factory->define(App\Thread::class, function (Faker $faker) {
 	return [
